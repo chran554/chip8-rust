@@ -1,0 +1,12 @@
+[package]
+name = "chip8"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1.0.147", features = ["derive"] }
+serde_derive = "1.0.147"
+rmp-serde = "1.1.1"
+rand = "0.8.5"
